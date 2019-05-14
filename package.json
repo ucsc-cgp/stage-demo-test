@@ -1,0 +1,29 @@
+{
+  "name": "stage-demo-test",
+  "version": "1.0.0",
+  "description": "Contains end-to-end and integration tests for CGP's core demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucsc-cgp/stage-demo-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucsc-cgp/stage-demo-test/issues"
+  },
+  "homepage": "https://github.com/ucsc-cgp/stage-demo-test#readme",
+  "devDependencies": {
+    "cypress": "^3.3.1",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "passport": "^0.4.0",
+    "passport-2fa-totp": "0.0.1",
+    "passport-google-oauth": "^2.0.0"
+  }
+}
